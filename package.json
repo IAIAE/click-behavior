@@ -1,0 +1,32 @@
+{
+  "name": "click-behavior",
+  "version": "0.0.1",
+  "description": "click function for wrap a onclick handler. oh! somebody double-click this button! which post to the server twice!!!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.22.0",
+    "babel-preset-es2015": "^6.24.1",
+    "rollup": "^0.41.1",
+    "rollup-plugin-babel": "^3.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IAIAE/click-behavior.git"
+  },
+  "keywords": [
+    "click",
+    "double-click"
+  ],
+  "author": "IAIAE",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IAIAE/click-behavior/issues"
+  },
+  "homepage": "https://github.com/IAIAE/click-behavior#readme"
+}
